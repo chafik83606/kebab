@@ -39,16 +39,8 @@ workflows:
           xcode-project build-ipa \
             --project "$UNITY_IOS_DIR/$XCODE_PROJECT" \
             --scheme "$XCODE_SCHEME"
+      - name: Return Unity license
+        script: |
+          $UNITY_BIN -batchmode -quit -returnlicense -nographics || true
     artifacts:
       - build/ios/ipa/*.ipa
-    publishing:
-      email:
-        recipients:
-          - $CM_EMAIL
-        notify:
-          success: true
-          failure: true
-      scripts:
-        - name: Return Unity license
-          script: |
-            $UNITY_BIN -batchmode -quit -returnlicense -nographics || true
