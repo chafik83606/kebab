@@ -46,7 +46,7 @@ public static class KebabIosBuild
 
     static void EnsureBundleId()
     {
-        const string id = "com.DefaultCompany.kebabmanager";
+        const string id = "com.ctre2.kebabmanager";
         PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.iOS, id);
         PlayerSettings.iOS.buildNumber = PlayerSettings.Android.bundleVersionCode.ToString();
     }

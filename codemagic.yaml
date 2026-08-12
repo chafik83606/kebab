@@ -9,8 +9,8 @@ workflows:
     environment:
       unity: 2022.3.62f3
       ios_signing:
-        distribution_type: development
-        bundle_identifier: com.DefaultCompany.kebabmanager
+        distribution_type: app_store
+        bundle_identifier: com.ctre2.kebabmanager
       groups:
         - unity_credentials
       vars:
@@ -18,7 +18,7 @@ workflows:
         UNITY_IOS_DIR: Builds/ios
         XCODE_PROJECT: "Unity-iPhone.xcodeproj"
         XCODE_SCHEME: "Unity-iPhone"
-        BUNDLE_ID: com.DefaultCompany.kebabmanager
+        BUNDLE_ID: com.ctre2.kebabmanager
     scripts:
       - name: Activate Unity license
         script: |
