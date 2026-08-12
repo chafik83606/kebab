@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7efbcb777b8928b4cb71d6818cdc9854
+timeCreated: 1525858025
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/focus light.mat
+  uploadId: 616294

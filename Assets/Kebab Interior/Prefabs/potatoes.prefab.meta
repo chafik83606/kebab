@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e65b96d3785aa76438940cdd64e09f1c
+timeCreated: 1525801030
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/potatoes.prefab
+  uploadId: 616294

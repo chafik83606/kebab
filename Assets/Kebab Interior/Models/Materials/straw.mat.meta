@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1b93be22f87b5d84bb23a0f849604a0d
+timeCreated: 1524651642
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/straw.mat
+  uploadId: 616294

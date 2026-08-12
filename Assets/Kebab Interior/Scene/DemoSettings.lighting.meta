@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff578e75fbd75264c8d6ec44b30358e2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Scene/DemoSettings.lighting
+  uploadId: 616294

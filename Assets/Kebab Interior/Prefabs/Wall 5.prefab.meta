@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a260adced8ddd294da01ef6433e4463d
+timeCreated: 1525854403
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Wall 5.prefab
+  uploadId: 616294

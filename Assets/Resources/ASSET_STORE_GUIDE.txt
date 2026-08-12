@@ -1,0 +1,37 @@
+GUIDE ASSET STORE — Kebab Empire (INTÉRIEUR KEBAB)
+==================================================
+
+IMPORTANT : évite les packs "Fast Food / Burger / MacDo".
+Pour un vrai kebab, privilégie shawarma / grill / viande / sauces / pain pita.
+
+--- PAYANTS MAIS VRAIMENT KEBAB (recommandés) ---
+1. poly shawarma shop (~4–5 €)
+   https://assetstore.unity.com/packages/3d/props/food/poly-shawarma-shop-274307
+   → broche, sauces, grill, menu, caisse
+
+2. Kebab Restaurant Interior (~25 $)
+   https://assetstore.unity.com/packages/3d/props/interior/kebab-restaurant-interior-118369
+   → broches kebab, vitrine, frigo, sauces, pita, falafel
+
+--- GRATUITS UTILES (pas kebab pur, mais adaptés) ---
+3. Pandazole - Kitchen Food low poly (GRATUIT)
+   https://assetstore.unity.com/packages/3d/props/food/pandazole-kitchen-food-low-poly-pack-204525
+   → frigo, grill, légumes, viande, cuisine
+
+4. Toony Kitchen & Ingredients FREE
+   https://assetstore.unity.com/packages/3d/props/toony-kitchen-ingredients-model-free-301805
+   → légumes / sauces / ustensiles
+
+5. Free Kitchen - Cabinets and Equipment
+   https://assetstore.unity.com/packages/3d/props/interior/free-kitchen-cabinets-and-equipment-245554
+   → meubles cuisine
+
+6. Free Bakery Props Starter Kit
+   https://assetstore.unity.com/packages/3d/props/interior/free-bakery-props-starter-kit-373736
+   → pain / comptoir (utile pour pita)
+
+--- À ÉVITER POUR KEBAB EMPIRE ---
+- Fast Food Restaurant Kit (burgers, fries, Big Drink)
+- Packs "Burger Shop" / "American Diner"
+
+Après import : glisse les prefabs dans Assets/Resources/VisualCatalog

@@ -1,0 +1,215 @@
+{
+    "money": 6733.31494140625,
+    "debt": 0.0,
+    "monthlyRevenueAccumulated": 2887.31494140625,
+    "currentDay": 4,
+    "currentMonth": 1,
+    "globalReputation": 50.0,
+    "taxesPaidThisMonth": true,
+    "restaurants": [
+        {
+            "restaurantName": "Mon Premier Kebab",
+            "locationName": "Centre-ville",
+            "regionId": "",
+            "locationMultiplier": 1.0,
+            "mapWorldX": 0.0,
+            "mapWorldZ": 0.0,
+            "restaurantId": 1,
+            "currentMeat": 1,
+            "meatStockKg": 7.75,
+            "saladFreshness": 0,
+            "tomatoFreshness": 0,
+            "onionFreshness": 0,
+            "sideQuality": 1,
+            "currentDirt": 24.0,
+            "hygieneStaffCount": 0,
+            "managementMode": 0,
+            "setupComplete": true,
+            "employees": [
+                {
+                    "employeeName": "Karim",
+                    "isDeclared": true,
+                    "dailyWage": 150.0,
+                    "daysEmployed": 3
+                }
+            ],
+            "grillLevel": 1,
+            "fridgeLevel": 1,
+            "vitrineLevel": 1,
+            "dailyRevenue": 301.5935974121094,
+            "reputation": 51.0,
+            "closureDaysRemaining": 0,
+            "isOwnedByPlayer": true,
+            "ownerIsWorking": false,
+            "sizeLevel": 1
+        },
+        {
+            "restaurantName": "Kebab Marseille",
+            "locationName": "Marseille",
+            "regionId": "marseille",
+            "locationMultiplier": 1.399999976158142,
+            "mapWorldX": 16.0,
+            "mapWorldZ": -10.0,
+            "restaurantId": 2,
+            "currentMeat": 1,
+            "meatStockKg": 10.0,
+            "saladFreshness": 0,
+            "tomatoFreshness": 0,
+            "onionFreshness": 0,
+            "sideQuality": 1,
+            "currentDirt": 24.0,
+            "hygieneStaffCount": 0,
+            "managementMode": 0,
+            "setupComplete": true,
+            "employees": [],
+            "grillLevel": 1,
+            "fridgeLevel": 1,
+            "vitrineLevel": 1,
+            "dailyRevenue": 703.7183837890625,
+            "reputation": 51.0,
+            "closureDaysRemaining": 0,
+            "isOwnedByPlayer": true,
+            "ownerIsWorking": false,
+            "sizeLevel": 1
+        }
+    ],
+    "competitors": [
+        {
+            "competitorName": "Doner King",
+            "treasury": 2247.16015625,
+            "debt": 0.0,
+            "isBankrupt": false,
+            "restaurants": [
+                {
+                    "restaurantName": "Doner King — Local",
+                    "locationName": "Quartier 1",
+                    "regionId": "",
+                    "locationMultiplier": 1.0,
+                    "mapWorldX": 0.0,
+                    "mapWorldZ": 0.0,
+                    "restaurantId": 0,
+                    "currentMeat": 0,
+                    "meatStockKg": 15.0,
+                    "saladFreshness": 0,
+                    "tomatoFreshness": 0,
+                    "onionFreshness": 0,
+                    "sideQuality": 1,
+                    "currentDirt": 0.0,
+                    "hygieneStaffCount": 0,
+                    "managementMode": 0,
+                    "setupComplete": true,
+                    "employees": [
+                        {
+                            "employeeName": "Employé IA",
+                            "isDeclared": true,
+                            "dailyWage": 150.0,
+                            "daysEmployed": 0
+                        }
+                    ],
+                    "grillLevel": 2,
+                    "fridgeLevel": 1,
+                    "vitrineLevel": 1,
+                    "dailyRevenue": 0.0,
+                    "reputation": 52.98133850097656,
+                    "closureDaysRemaining": 0,
+                    "isOwnedByPlayer": false,
+                    "ownerIsWorking": false,
+                    "sizeLevel": 1
+                }
+            ]
+        },
+        {
+            "competitorName": "Kebab Express",
+            "treasury": 3764.06689453125,
+            "debt": 0.0,
+            "isBankrupt": false,
+            "restaurants": [
+                {
+                    "restaurantName": "Kebab Express — Local",
+                    "locationName": "Quartier 2",
+                    "regionId": "",
+                    "locationMultiplier": 1.0,
+                    "mapWorldX": 0.0,
+                    "mapWorldZ": 0.0,
+                    "restaurantId": 0,
+                    "currentMeat": 2,
+                    "meatStockKg": 15.0,
+                    "saladFreshness": 0,
+                    "tomatoFreshness": 0,
+                    "onionFreshness": 0,
+                    "sideQuality": 1,
+                    "currentDirt": 0.0,
+                    "hygieneStaffCount": 0,
+                    "managementMode": 0,
+                    "setupComplete": true,
+                    "employees": [
+                        {
+                            "employeeName": "Employé IA",
+                            "isDeclared": false,
+                            "dailyWage": 70.0,
+                            "daysEmployed": 0
+                        }
+                    ],
+                    "grillLevel": 1,
+                    "fridgeLevel": 2,
+                    "vitrineLevel": 1,
+                    "dailyRevenue": 0.0,
+                    "reputation": 50.632659912109378,
+                    "closureDaysRemaining": 0,
+                    "isOwnedByPlayer": false,
+                    "ownerIsWorking": false,
+                    "sizeLevel": 1
+                }
+            ]
+        },
+        {
+            "competitorName": "Chez Brahim",
+            "treasury": 5752.7216796875,
+            "debt": 814.2791748046875,
+            "isBankrupt": false,
+            "restaurants": [
+                {
+                    "restaurantName": "Chez Brahim — Local",
+                    "locationName": "Quartier 3",
+                    "regionId": "",
+                    "locationMultiplier": 1.0,
+                    "mapWorldX": 0.0,
+                    "mapWorldZ": 0.0,
+                    "restaurantId": 0,
+                    "currentMeat": 2,
+                    "meatStockKg": 15.0,
+                    "saladFreshness": 0,
+                    "tomatoFreshness": 0,
+                    "onionFreshness": 0,
+                    "sideQuality": 1,
+                    "currentDirt": 0.0,
+                    "hygieneStaffCount": 0,
+                    "managementMode": 0,
+                    "setupComplete": true,
+                    "employees": [
+                        {
+                            "employeeName": "Employé IA",
+                            "isDeclared": true,
+                            "dailyWage": 150.0,
+                            "daysEmployed": 0
+                        }
+                    ],
+                    "grillLevel": 2,
+                    "fridgeLevel": 2,
+                    "vitrineLevel": 1,
+                    "dailyRevenue": 0.0,
+                    "reputation": 35.378421783447269,
+                    "closureDaysRemaining": 0,
+                    "isOwnedByPlayer": false,
+                    "ownerIsWorking": false,
+                    "sizeLevel": 1
+                }
+            ]
+        }
+    ],
+    "nextRestaurantId": 3,
+    "gameOver": false,
+    "gameOverReason": "",
+    "gamePhase": 2,
+    "awaitingSetup": false
+}

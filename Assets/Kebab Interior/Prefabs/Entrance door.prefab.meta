@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: abf9a247054692b49b734f8b1edeae53
+timeCreated: 1525852681
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Entrance door.prefab
+  uploadId: 616294

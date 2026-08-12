@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6b83ba4fa02594e4f9e93acd1bcc544e
+timeCreated: 1525597295
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/plants.mat
+  uploadId: 616294

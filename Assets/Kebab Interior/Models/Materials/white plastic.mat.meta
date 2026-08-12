@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b5f56b590c8ba2b4bbed3b1c94bd052e
+timeCreated: 1524650030
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/white plastic.mat
+  uploadId: 616294

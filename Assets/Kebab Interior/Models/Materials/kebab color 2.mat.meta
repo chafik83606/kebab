@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 42492026356ca034ca087aad826d1e33
+timeCreated: 1525681076
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/kebab color 2.mat
+  uploadId: 616294

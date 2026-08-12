@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b11ac2ad983bb9f4b97aebdb5db9e3d4
+timeCreated: 1524589557
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/New Terrain.asset
+  uploadId: 616294

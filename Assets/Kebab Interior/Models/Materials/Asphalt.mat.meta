@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1813d7cdaaca7e644b58e179ac7ce289
+timeCreated: 1525935569
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/Asphalt.mat
+  uploadId: 616294

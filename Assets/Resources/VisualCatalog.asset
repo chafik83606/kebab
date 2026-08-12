@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62936730d74797042be698ce4f6df09f, type: 3}
+  m_Name: VisualCatalog
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1193138585393553888, guid: f9c11c212145f9a4cb4c2e3cd4fc08ae, type: 3}
+  employeePrefabs:
+  - {fileID: 1193138585393553888, guid: f9c11c212145f9a4cb4c2e3cd4fc08ae, type: 3}
+  - {fileID: 6235000539097917739, guid: 39af6f1e99f66754dbfcde753539df1b, type: 3}
+  - {fileID: 2728903940092985898, guid: d7978fed0d554424aa068e61febd3f39, type: 3}
+  - {fileID: 7122742682207783181, guid: 253e359b55511ec498fe3b5e2243e813, type: 3}
+  - {fileID: 6519605648272185231, guid: 2670ee43939cc5e4495f6616366acaeb, type: 3}
+  - {fileID: 880714636728156243, guid: 704e6059def12974b93a2246d7e71e9f, type: 3}
+  - {fileID: 5063714714737779777, guid: 8f2d72b8a186ccf458218ae1f88d275e, type: 3}
+  - {fileID: 4808108811627561585, guid: 8317a5d7022fed94f876553e189e6114, type: 3}
+  - {fileID: 6242786811382514660, guid: 515b2dd7c5b86fe46a88baad877638e5, type: 3}
+  customerPrefabs:
+  - {fileID: 1193138585393553888, guid: f9c11c212145f9a4cb4c2e3cd4fc08ae, type: 3}
+  - {fileID: 6235000539097917739, guid: 39af6f1e99f66754dbfcde753539df1b, type: 3}
+  - {fileID: 2728903940092985898, guid: d7978fed0d554424aa068e61febd3f39, type: 3}
+  - {fileID: 7122742682207783181, guid: 253e359b55511ec498fe3b5e2243e813, type: 3}
+  kebabExteriorPrefab: {fileID: 4721877880423355309, guid: 6ee8a4fe677ab284b852dc85fa402410, type: 3}
+  kebabInteriorPrefab: {fileID: 213932414530163138, guid: 5326241aaaba2f34080de0617e9b9804, type: 3}
+  restaurantBuildingPrefab: {fileID: 7568544422384353232, guid: e9d525d33a63d7442966fe93e957563d, type: 3}
+  characterScale: 1
+  characterPositionOffset: {x: 0, y: 0, z: 0}

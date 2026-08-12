@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 761f97adcc7740b499a8dcb4baa91a27
+timeCreated: 1525851355
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Special knife.prefab
+  uploadId: 616294

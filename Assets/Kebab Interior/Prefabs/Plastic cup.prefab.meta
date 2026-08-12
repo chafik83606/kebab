@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 646b014b7e7776f4f9773adae264c83b
+timeCreated: 1525851821
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Plastic cup.prefab
+  uploadId: 616294

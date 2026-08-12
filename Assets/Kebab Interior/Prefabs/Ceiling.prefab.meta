@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 79e673989997b2344b9497d9fbcc09b9
+timeCreated: 1525854195
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Ceiling.prefab
+  uploadId: 616294

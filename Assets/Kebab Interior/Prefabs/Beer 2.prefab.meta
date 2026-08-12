@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5a5d7dad69f655c479bbec8698126f2d
+timeCreated: 1525773907
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Beer 2.prefab
+  uploadId: 616294

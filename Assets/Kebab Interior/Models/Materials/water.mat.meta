@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ea3d815cf61d5294ab5fbee4290272c9
+timeCreated: 1524591477
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/water.mat
+  uploadId: 616294

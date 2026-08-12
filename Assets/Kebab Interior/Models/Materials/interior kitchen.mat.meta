@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7d9d3a5bfaea07b409cacc4b16d6426a
+timeCreated: 1525592410
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/interior kitchen.mat
+  uploadId: 616294

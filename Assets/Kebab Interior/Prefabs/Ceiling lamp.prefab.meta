@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 323e76873579d7e4e96e8de403980070
+timeCreated: 1525851961
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Ceiling lamp.prefab
+  uploadId: 616294

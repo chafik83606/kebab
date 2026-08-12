@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2c82dc86ff6ed1744aeb9b70ea8c3a14
+timeCreated: 1525771209
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/vending machine.mat
+  uploadId: 616294

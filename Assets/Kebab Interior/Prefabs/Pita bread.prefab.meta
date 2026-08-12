@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dfaa9029b41a3a545930d98833d84e3e
+timeCreated: 1525851288
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Pita bread.prefab
+  uploadId: 616294

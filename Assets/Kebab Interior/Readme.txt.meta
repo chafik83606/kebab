@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8332b3d427f93bb4db995d7f0edf63c8
+timeCreated: 1524589705
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Readme.txt
+  uploadId: 616294

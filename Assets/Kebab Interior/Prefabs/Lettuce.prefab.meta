@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d21b98f184a1c314a9792378a3d2d660
+timeCreated: 1525800018
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Lettuce.prefab
+  uploadId: 616294

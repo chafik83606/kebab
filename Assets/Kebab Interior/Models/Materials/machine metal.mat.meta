@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 857d274c0d0aa6f48b523327b1c194be
+timeCreated: 1524812710
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/machine metal.mat
+  uploadId: 616294

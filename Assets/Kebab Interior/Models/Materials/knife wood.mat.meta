@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5ad92729aa6f9fd4c927b2c714bdb999
+timeCreated: 1524677153
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/knife wood.mat
+  uploadId: 616294

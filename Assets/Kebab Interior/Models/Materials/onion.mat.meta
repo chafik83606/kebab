@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2179c98e41f4d6644b789228152a7cd2
+timeCreated: 1524663312
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/onion.mat
+  uploadId: 616294

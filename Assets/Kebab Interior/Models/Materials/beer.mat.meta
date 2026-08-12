@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1fa97b4624c851149886d64072a0738f
+timeCreated: 1524640708
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/beer.mat
+  uploadId: 616294

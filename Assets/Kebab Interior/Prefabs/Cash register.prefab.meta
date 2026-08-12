@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b4eeccbcdcc585e4b82b24ece4b3cc35
+timeCreated: 1525849692
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Cash register.prefab
+  uploadId: 616294

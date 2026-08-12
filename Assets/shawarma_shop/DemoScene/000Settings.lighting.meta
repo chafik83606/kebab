@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0595b6344b7f62944942aa5287af6ed1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 274307
+  packageName: poly shawarma shop
+  packageVersion: 1.0
+  assetPath: Assets/shawarma_shop/DemoScene/000Settings.lighting
+  uploadId: 640226

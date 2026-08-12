@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3227929a73380504a82bb21b978cc460
+timeCreated: 1524646871
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Models/Materials/napkin.mat
+  uploadId: 616294

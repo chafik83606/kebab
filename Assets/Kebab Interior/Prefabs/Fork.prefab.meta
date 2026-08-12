@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 789848cf657a5754683da1ae1aa30089
+timeCreated: 1525852397
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118369
+  packageName: Kebab Restaurant Interior
+  packageVersion: 1.2
+  assetPath: Assets/Kebab Interior/Prefabs/Fork.prefab
+  uploadId: 616294
