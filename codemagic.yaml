@@ -1,7 +1,8 @@
 # Kebab Empire — build iOS pour iPhone (Codemagic)
 # Docs : https://docs.codemagic.io/yaml-quick-start/building-a-unity-app/
-# Install custom Unity version :
-# https://docs.codemagic.io/knowledge-others/install-unity-version/
+#
+# Unity 2022.3.62f2 = version supportée Codemagic (licence incluse sur le Mac CI).
+# Le .ulf copié depuis Windows ne fonctionne pas ("Machine bindings don't match").
 
 workflows:
   kebab-ios:
@@ -11,50 +12,19 @@ workflows:
     integrations:
       app_store_connect: codemagic-ios-release-v2
     environment:
-      # Version supportée Codemagic (licence uniquement). Le build utilise 2022.3.62f3 via Unity Hub.
       unity: 2022.3.62f2
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.ctre2.kebabmanager
-      groups:
-        - unity_credentials
       vars:
-        UNITY_VERSION: 2022.3.62f3
-        UNITY_VERSION_CHANGESET: 96770f904ca7
         UNITY_IOS_DIR: Builds/ios
         XCODE_PROJECT: "Unity-iPhone.xcodeproj"
         XCODE_SCHEME: "Unity-iPhone"
         BUNDLE_ID: com.ctre2.kebabmanager
     scripts:
-      - name: Activate Unity license
-        script: |
-          # Personal : fichier .ulf encodé en base64 (UNITY_LICENSE)
-          # Plus/Pro : serial + email + password (UNITY_SERIAL, UNITY_EMAIL, UNITY_PASSWORD)
-          if [ -n "$UNITY_LICENSE" ]; then
-            echo "$UNITY_LICENSE" | base64 --decode > Unity_lic.ulf
-            mkdir -p "/Library/Application Support/Unity"
-            cp Unity_lic.ulf "/Library/Application Support/Unity/Unity_lic.ulf"
-            echo "Unity license installed from UNITY_LICENSE (.ulf)"
-          elif [ -n "$UNITY_SERIAL" ] && [ -n "$UNITY_EMAIL" ] && [ -n "$UNITY_PASSWORD" ]; then
-            $UNITY_HOME/Contents/MacOS/Unity -batchmode -quit -logFile - \
-              -serial "$UNITY_SERIAL" \
-              -username "$UNITY_EMAIL" \
-              -password "$UNITY_PASSWORD"
-          else
-            echo "Missing UNITY_LICENSE (.ulf base64) or UNITY_SERIAL/EMAIL/PASSWORD"
-            exit 1
-          fi
-      - name: Install Unity 2022.3.62f3 (iOS module)
-        script: |
-          yes Y | /Applications/Unity\ Hub.app/Contents/MacOS/Unity\ Hub -- --headless install \
-            --version "$UNITY_VERSION" --changeset "$UNITY_VERSION_CHANGESET" -a arm64
-          yes Y | /Applications/Unity\ Hub.app/Contents/MacOS/Unity\ Hub -- --headless install-modules \
-            --version "$UNITY_VERSION" -m ios -a arm64
-          echo "UNITY_HOME=/Applications/Unity/Hub/Editor/${UNITY_VERSION}/Unity.app" >> $CM_ENV
-          echo "UNITY_BIN=/Applications/Unity/Hub/Editor/${UNITY_VERSION}/Unity.app/Contents/MacOS/Unity" >> $CM_ENV
       - name: Export Xcode project from Unity
         script: |
-          $UNITY_BIN -batchmode -quit -logFile - \
+          $UNITY_HOME/Contents/MacOS/Unity -batchmode -quit -logFile - \
             -projectPath "$CM_BUILD_DIR" \
             -executeMethod KebabIosBuild.BuildIosBatch \
             -nographics
@@ -65,8 +35,5 @@ workflows:
           xcode-project build-ipa \
             --project "$UNITY_IOS_DIR/$XCODE_PROJECT" \
             --scheme "$XCODE_SCHEME"
-      - name: Return Unity license
-        script: |
-          $UNITY_HOME/Contents/MacOS/Unity -batchmode -quit -returnlicense -nographics || true
     artifacts:
       - build/ios/ipa/*.ipa
