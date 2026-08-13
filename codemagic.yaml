@@ -28,10 +28,22 @@ workflows:
     scripts:
       - name: Activate Unity license
         script: |
-          $UNITY_HOME/Contents/MacOS/Unity -batchmode -quit -logFile - \
-            -serial ${UNITY_SERIAL?} \
-            -username ${UNITY_EMAIL?} \
-            -password ${UNITY_PASSWORD?}
+          # Personal : fichier .ulf encodé en base64 (UNITY_LICENSE)
+          # Plus/Pro : serial + email + password (UNITY_SERIAL, UNITY_EMAIL, UNITY_PASSWORD)
+          if [ -n "$UNITY_LICENSE" ]; then
+            echo "$UNITY_LICENSE" | base64 --decode > Unity_lic.ulf
+            mkdir -p "/Library/Application Support/Unity"
+            cp Unity_lic.ulf "/Library/Application Support/Unity/Unity_lic.ulf"
+            echo "Unity license installed from UNITY_LICENSE (.ulf)"
+          elif [ -n "$UNITY_SERIAL" ] && [ -n "$UNITY_EMAIL" ] && [ -n "$UNITY_PASSWORD" ]; then
+            $UNITY_HOME/Contents/MacOS/Unity -batchmode -quit -logFile - \
+              -serial "$UNITY_SERIAL" \
+              -username "$UNITY_EMAIL" \
+              -password "$UNITY_PASSWORD"
+          else
+            echo "Missing UNITY_LICENSE (.ulf base64) or UNITY_SERIAL/EMAIL/PASSWORD"
+            exit 1
+          fi
       - name: Install Unity 2022.3.62f3 (iOS module)
         script: |
           yes Y | /Applications/Unity\ Hub.app/Contents/MacOS/Unity\ Hub -- --headless install \
